@@ -3,6 +3,7 @@ package Secao_7_Funcoes;
 import java.util.Scanner;
 
 public class Funcao{
+
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Insira três numeros: ");
