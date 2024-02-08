@@ -1,7 +1,5 @@
 package com.rocketseat.certification_nlw.modules.students.entities;
 
-
-import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
@@ -11,13 +9,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CertificationStudentEntity {
+public class AnswersCertificationsEntity {
 
     private UUID id;
+    private UUID certificationID;
     private UUID studentID;
-    private String technology;
-    private int grade;
-    List<AnswersCertificationsEntity> answersCertificationsEntities;
-
-    
+    private UUID questionID;
+    private UUID answerID;
+    private boolean isCorrect;
 }
