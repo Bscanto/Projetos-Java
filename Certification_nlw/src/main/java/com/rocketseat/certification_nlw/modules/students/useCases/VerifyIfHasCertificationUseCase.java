@@ -10,4 +10,5 @@ public class VerifyIfHasCertificationUseCase {
     public boolean execute(VerifyHasCertificationDTO dto) {
         return dto.getEmail().equals("bsccanto@gmail.com") && dto.getTechnology().equals("JAVA");
     }
+    //50:00 minutos parei
 }
